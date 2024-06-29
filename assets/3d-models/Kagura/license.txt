@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hero_Kagura_Lobby
+* source:	https://sketchfab.com/3d-models/hero-kagura-lobby-2243d6ff8c3740e1ae4955d23e76d291
+* author:	ahsjkdhsjkah (https://sketchfab.com/ahsjkdhsjkah)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hero_Kagura_Lobby" (https://sketchfab.com/3d-models/hero-kagura-lobby-2243d6ff8c3740e1ae4955d23e76d291) by ahsjkdhsjkah (https://sketchfab.com/ahsjkdhsjkah) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

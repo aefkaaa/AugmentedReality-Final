@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AR Camera</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+  </head>
+  <body>
+    <a-scene
+      mindar-image="imageTargetSrc: ./assets/farhatfe.mind; maxTrack: 10"
+      color-space="sRGB"
+      renderer="colorManagement: true, physicallyCorrectLights"
+      vr-mode-ui="enabled: false"
+      device-orientation-permission-ui="enabled: false">
+    
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+      <a-assets>
+        <a-asset-item
+          id="akai"
+          src="./assets/3d-models/Akai/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="alucard"
+          src="./assets/3d-models/Alucard/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="bruno"
+          src="./assets/3d-models/Bruno/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="esmeralda"
+          src="./assets/3d-models/Esmeralda/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="guinevere"
+          src="./assets/3d-models/Guinevere/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="kadita"
+          src="./assets/3d-models/Kadita/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="kagura"
+          src="./assets/3d-models/Kagura/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="layla"
+          src="./assets/3d-models/Layla/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="miya"
+          src="./assets/3d-models/Miya/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="wanwan"
+          src="./assets/3d-models/Wanwan/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+
+      <img id="wall" src="./assets/img/wall.jpg" />
+      <img id="ground" src="./assets/img/map.jpg" />
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-gltf-model
+          src="#akai"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.2 0.2 0.2"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-gltf-model
+          src="#alucard"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.002 0.002 0.002"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 2">
+        <a-gltf-model
+          src="#bruno"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.2 0.2 0.2"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 3">
+        <a-gltf-model
+          src="#esmeralda"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.3 0.3 0.3"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 4">
+        <a-gltf-model
+          src="#guinevere"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="20 20 20"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 5">
+        <a-gltf-model
+          src="#kadita"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="20 20 20"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 6">
+        <a-gltf-model
+          src="#kagura"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.2 0.2 0.2"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 7">
+        <a-gltf-model
+          src="#layla"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.002 0.002 0.002"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 8">
+        <a-gltf-model
+          src="#miya"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="20 20 20"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+
+      <a-entity mindar-image-target="targetIndex: 9">
+        <a-gltf-model
+          src="#wanwan"
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.3 0.3 0.3"
+          animation-mixer
+        ></a-gltf-model>
+        <a-image
+          rotation="0 0 0"
+          position="0 0 0"
+          scale="0.6 0.6 0.6"
+          src="#wall"
+        ></a-image>
+        <a-image
+          rotation="0 0 0"
+          position="90 0 0"
+          scale="0.6 0.6 0.6"
+          src="#ground"
+        ></a-image>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>

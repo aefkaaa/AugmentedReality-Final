@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legend Augmented Reality</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="splash">
+        <img id="splash-logo" src="./assets/img/logoml.png" />
+    </div>
+    <div id="main-content" class="hidden">
+        </nav>
+        <section id="dashboard">
+            <h1>Welcome to Augemented Reality Mobile Legend</h1>
+            <div class="grid-container">
+                <div class="grid-item" onclick="showSection('about')">
+                    <h2>About</h2>
+                    <p>Hello my name is Farhat Febrianto Welcome to my portfolio!</p>
+                </div>
+                <div class="grid-item" onclick="showSection('guide')">
+                    <h2>Guide</h2>
+                    <p>Here is how to use the features on this website...</p>
+                </div>
+                <div class="grid-item" onclick="showSection('marker')">
+                    <h2>Marker</h2>
+                    <p>The AR card that will be used can be downloaded here</p>
+                </div>
+                <div class="grid-item" onclick="showSection('ar')">
+                    <h2>AR</h2>
+                    <p>Scan AR Card here</p>
+                </div>
+            </div>
+        </section>
+        <section id="about-section" class="hidden">
+            <h1>About</h1>
+            <p>Hello my name is Farhat Febrianto Welcome to my portfolio! Here, you'll find a showcase of my augmented reality project, the culmination of my studies in AR at Lampung University. Augmented reality (AR) is a technology that overlays digital information onto the real world, enhancing our perception of reality. In this project, I've explored the potential of AR to create immersive and interactive experiences. Dive into this project to see how I've applied AR technology and the skills I've developed during my academic journey. Thank you for taking the time to explore this significant piece of my educational experience.</p>
+            <div class="button-container">
+                <button onclick="showSection('dashboard')">Back to Dashboard</button>
+            </div>
+        </section>
+        <section id="guide-section" class="hidden">
+            <h1>Guide</h1>
+            <p>Here are the instructions for using the features on this website:
+                <ul>
+                    <li>About Feature: Click the "About" button to see information about the project.</li>
+                    <li>Guide Feature: Click the "Guide" button to learn how to use the features on this website.</li>
+                    <li>Marker Feature: Click the "Marker" button to download the required PDF file.</li>
+                    <li>AR Feature: Click the "AR" button to use the card scanning feature.</li>
+                </ul>
+            </p>
+            <div class="button-container">
+                <button onclick="showSection('dashboard')">Back to Dashboard</button>
+            </div>
+        </section>
+        <section id="marker-section" class="hidden">
+            <h1>Marker</h1>
+            <p>Download the required PDF file for this project:</p>
+            <a href="./assets/marker/Mobile Legend AR Cards.pdf" download>Download PDF</a>
+            <div class="button-container">
+                <button onclick="showSection('dashboard')">Back to Dashboard</button>
+            </div>
+        </section>
+        <section id="ar-section" class="hidden">
+            <h1>AR</h1>
+            <p>Use the AR Feature to scan the cards.</p>
+            <a href="arcam.html" target="_blank" class="button">Scan Cards</a>
+            <div class="button-container">
+                <button onclick="showSection('dashboard')">Back to Dashboard</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

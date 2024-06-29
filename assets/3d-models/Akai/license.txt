@@ -1,0 +1,11 @@
+Model Information:
+* title:	Akai - Mobile Legends
+* source:	https://sketchfab.com/3d-models/akai-mobile-legends-8ae70fafd4fa4cc4a32c02535ced154b
+* author:	intermezzo9 (https://sketchfab.com/intermezzo9)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Akai - Mobile Legends" (https://sketchfab.com/3d-models/akai-mobile-legends-8ae70fafd4fa4cc4a32c02535ced154b) by intermezzo9 (https://sketchfab.com/intermezzo9) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

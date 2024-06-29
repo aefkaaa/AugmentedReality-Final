@@ -1,0 +1,11 @@
+Model Information:
+* title:	Layla - Mobile Legend
+* source:	https://sketchfab.com/3d-models/layla-mobile-legend-338cf7bfa84644df945c56855fb71edd
+* author:	intermezzo9 (https://sketchfab.com/intermezzo9)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Layla - Mobile Legend" (https://sketchfab.com/3d-models/layla-mobile-legend-338cf7bfa84644df945c56855fb71edd) by intermezzo9 (https://sketchfab.com/intermezzo9) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hero_Kadita_Lobby
+* source:	https://sketchfab.com/3d-models/hero-kadita-lobby-104817d989474424a307c15dd54cadcc
+* author:	ahsjkdhsjkah (https://sketchfab.com/ahsjkdhsjkah)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hero_Kadita_Lobby" (https://sketchfab.com/3d-models/hero-kadita-lobby-104817d989474424a307c15dd54cadcc) by ahsjkdhsjkah (https://sketchfab.com/ahsjkdhsjkah) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
