@@ -14,7 +14,7 @@ Click this link and go to application : https://aefkaaa.github.io/AugmentedReali
 
 ### QR Code
 Scan the QR code to access the application:
-[Click this link to view and scan the QR code](QR Code.png)
+![image](https://github.com/aefkaaa/AugmentedReality-Final/assets/102565965/7b5e10da-116a-4740-bbb8-1b6d6bcc72ce)
 
 ### Video
 Click this link and enjoy the video : https://youtu.be/QeTLlG_OUrY?si=4VdsAm906ST6H8RB
