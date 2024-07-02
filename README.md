@@ -10,7 +10,7 @@ An augmented reality (AR) web application that allows users to view and interact
 ## How to Access
 
 ### Web Application
-Click this link and go to application :
+Click this link and go to application : https://aefkaaa.github.io/AugmentedReality-Final/
 
 ### QR Code
 Scan the QR code to access the application:
