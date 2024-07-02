@@ -22,10 +22,11 @@ Click this link and enjoy the video : [https://youtu.be/QeTLlG_OUrY?si=4VdsAm906
 ## Documentation
 Below are some screenshots documenting the application:
 
-![Screenshot 1](path/to/image_1)
-![Screenshot 2](path/to/image_2)
-![Screenshot 3](path/to/image_3)
-![Screenshot 4](path/to/image_4)
+![image](https://github.com/aefkaaa/AugmentedReality-Final/assets/102565965/28ae0350-2ad8-4994-9e9c-6ac7b7daa846)
+![image](https://github.com/aefkaaa/AugmentedReality-Final/assets/102565965/2c353bab-1cdc-44d9-bd9e-b30759e6b645)
+![image](https://github.com/aefkaaa/AugmentedReality-Final/assets/102565965/829b3435-a7cf-4ccb-9d21-36db4e8abb4f)
+![image](https://github.com/aefkaaa/AugmentedReality-Final/assets/102565965/b8f60107-a7ff-488e-ad26-03d8baba123b)
+
 
 ## Installation and Setup
 1. Clone the repository:
